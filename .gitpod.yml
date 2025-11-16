@@ -1,0 +1,4 @@
+tasks:
+  - name: Setup
+    init: npm install
+    command: npx playwright install --with-deps
